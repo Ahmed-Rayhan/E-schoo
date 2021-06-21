@@ -49,7 +49,7 @@ ul{
 .row{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 
@@ -238,6 +238,7 @@ footer{
 	flex-basis: 40%;
 }
 .footer-column p{
+	max-width: 70%;
 	font-size: 16px;
 }
 .footer-menu{
